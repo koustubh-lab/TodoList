@@ -1,0 +1,58 @@
+.TodoInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+
+    width: min(1000px, 100%);
+    margin-inline: auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.TodoInput input {
+    flex: 1;
+    padding: 13px;
+    text-indent: 20px;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    outline: none;
+    color: rgb(229, 229, 229);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.TodoInput input::selection {
+    transform: scale(1.1);
+}
+
+.TodoInput input::placeholder {
+    color: hsla(0, 0%, 89%, 0.678);
+}
+
+.TodoInput button {
+    padding: 10px 40px;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background-color: transparent;
+    font-weight: bold;
+    background-color: white;
+}
+
+.TodoInput button:hover {
+    background-color: transparent;
+    transform: scale(1.1);
+}
+
+.TodoInput button i {
+    color: hsl(0, 0%, 10%);
+}
+
+.TodoInput button:hover i {
+    color: hsl(0, 0%, 86%);
+}

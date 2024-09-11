@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(217, 217, 217);
+}
+
+html, body {
+    background-color: hsl(0, 0%, 15%);
+    min-height: 100vh;
+}
+
+h1, 
+h2,
+h3,
+p,
+button {
+    font-family: "Inter";
+}
